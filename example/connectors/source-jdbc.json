@@ -1,0 +1,14 @@
+{
+    "name": "DatagenSourceConnector_1",
+    "config" : {
+            "name": "DatagenSourceConnector_1",
+            "connector.class": "DatagenSource",            
+            "kafka.auth.mode": "KAFKA_API_KEY",
+            "kafka.api.key": "6MXVES4QCG4GBGON",
+            "kafka.api.secret": "7TYZUlxgfJOAceqxUblOsxSKYQ/DTcVPXn8qHyQ4A1JxV9NPSrfLPJxxADH8FIz0",
+            "kafka.topic": "AVRO.TEST2",
+            "output.data.format": "JSON",
+            "quickstart": "USERS",
+            "tasks.max": "1"    
+    }
+}

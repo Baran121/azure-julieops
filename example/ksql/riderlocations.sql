@@ -1,0 +1,1 @@
+CREATE OR REPLACE STREAM mriderLocations (profileId VARCHAR, latitude DOUBLE, longitude DOUBLE) WITH (kafka_topic='mlocations', value_format='json', partitions=1);
